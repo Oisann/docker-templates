@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>[OSRS] Adventurer's Log</Name>
+  <Date>2018-03-22</Date>
+  <Description>
+    Pushes OSRS Hiscores changes to a webhook [br][br]
+    [b][u][span style='color: #E80000;']Configuration[/span][/u][/b][br]
+    [b]/usr/src/app/accounts[/b] This is where the config json files are stored[br][br]
+    [b]/usr/src/app/last[/b] This is where the last stats from the hiscores are stored[br][br]
+  </Description>
+  <Overview>
+    
+  </Overview>
+  <Support>https://gitlab.com/JonasMyhrRefseth/osrs-adventurers-log</Support>
+  <Registry>https://registry.gitlab.com/jonasmyhrrefseth/osrs-adventurers-log/</Registry>
+  <GitHub>https://gitlab.com/JonasMyhrRefseth/osrs-adventurers-log</GitHub>
+  <Repository>registry.gitlab.com/jonasmyhrrefseth/osrs-adventurers-log</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name></Name>
+      <Value></Value>
+    </Variable>
+  </Environment>    
+  <Data>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/usr/src/app/accounts</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/usr/src/app/last</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Icon>https://vignette.wikia.nocookie.net/2007scape/images/d/df/Clue_scroll_detail.png</Icon>
+  <Beta>True</Beta>
+  <Category>Games:RuneScape:Old School:Hiscores:</Category>
+  <Changes>
+    [center][font size=5]Change Log[/font][/center]
+    
+    [font size=4]2018.03.22[/font]
+    - Added combat level check
+    - Added a debug line to see if it finds quest requirements
+
+  </Changes>
+</Containers>
