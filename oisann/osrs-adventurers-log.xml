@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Name>[OSRS] Adventurer's Log</Name>
+  <Name>OSRS-Adventurers-Log</Name>
   <Date>2018-03-22</Date>
   <Description>
     Pushes OSRS Hiscores changes to a webhook [br][br]
