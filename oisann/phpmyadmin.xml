@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>phpMyAdmin</Name>
+  <Date>2018-03-22</Date>
+  <Description>
+  </Description>
+  <Overview>
+  </Overview>
+  <Support>https://github.com/phpmyadmin/docker</Support>
+  <Registry>https://hub.docker.com/r/phpmyadmin/phpmyadmin/</Registry>
+  <GitHub>https://github.com/phpmyadmin/docker</GitHub>
+  <Repository>phpmyadmin/phpmyadmin</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+    <Networking>
+    <Mode>bridge</Mode>
+  </Networking>
+  <Environment>
+    <Variable>
+      <Name>PMA_HOST</Name>
+      <Value>dbhost</Value>
+    </Variable>
+  </Environment>    
+  <Data>
+  </Data>
+  <Icon>http://blog.baehost.com/wp-content/uploads/2016/01/phpmyadmin256.png</Icon>
+  <Beta>True</Beta>
+  <Category>mysql:php:phpmyadmin</Category>
+  <Changes>
+  </Changes>
+</Containers>
