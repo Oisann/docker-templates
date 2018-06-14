@@ -14,6 +14,13 @@
   <Privileged>false</Privileged>
     <Networking>
     <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>8080</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
   </Networking>
   <Environment>
     <Variable>
