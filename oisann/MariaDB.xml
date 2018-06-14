@@ -34,10 +34,6 @@
       <Name>MYSQL_PASSWORD</Name>
       <Value>change_this_please</Value>
     </Variable>
-    <Variable>
-      <Name>MYSQL_PASSWORD</Name>
-      <Value>change_this_please</Value>
-    </Variable>
   </Environment>    
   <Data>
     <Volume>
